@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "user": "Hora",
+        "message": "Discovering dynamically updated content without page reload is one of the biggest obstacles for screen readers, especially in the days of Ajax, Node, and single-page applications. How should these be handled?  Should the whole page be spoken again? Or should the [assistive technologies] do nothing, risking that the user will miss important updates?"
+    },
+    {
+        "id": 2,
+        "user": "Hora",
+        "message": "Oh, and that quote is from SitePoint: https://www.sitepoint.com/introduction-wai-aria/"
+    }
+]
+
