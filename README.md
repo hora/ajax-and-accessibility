@@ -159,7 +159,7 @@ following core technologies:
 - JSON
 - JavaScript
 
-See the files in [/ajax-get-example](https://github.com/hora/lhl-w4d3/tree/master/ajax-get-example) for a demo. To
+See the files in [/ajax-get-example](https://github.com/hora/lhl-w4d3/tree/2019-oct-9/ajax-get-example) for a demo. To
 serve the demo files, you'll need the Nodejs `http-server`
 package.
 
@@ -195,6 +195,12 @@ package.
 - [HTML: A good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML) on MDN
 
 - [CSS and JavaScript accessibility best practices](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript) on MDN
+
+- [tota11y by Khan Academy](https://khan.github.io/tota11y/) – a accessibility
+  checking toolkit built by Khan Academy
+
+- [axe-core on npm](https://www.npmjs.com/package/axe-core) – a Nodejs package
+  for accessibility testing (disclaimer: I've never used this)
 
 ### AJAX resources
 
