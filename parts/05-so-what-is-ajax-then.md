@@ -14,7 +14,7 @@ following core technologies:
 - JSON
 - JavaScript
 
-See the files in [/ajax-get-example]() for a demo. To
+See the files in [/ajax-get-example](https://github.com/hora/lhl-w4d3/tree/master/ajax-get-example) for a demo. To
 serve the demo files, you'll need the Nodejs `http-server`
 package.
 
