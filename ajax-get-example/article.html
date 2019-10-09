@@ -49,56 +49,33 @@
         <section class="post-comments">
           <h3>Comments</h3>
 
-          <div class="post-comments__load">
-            <p>
-              There are 2 comments on this post.
-            </p>
+          <p>There are 2 comments on this post.</p>
 
-            <button
-              class="post-comments__load-button">Load
-              comments
+          <div class="post-comments__load">
+            <button role="button"
+              class="post-comments__load-button">
+              Load Comments
             </button>
           </div>
 
-          <div class="post-comments__errors"
-               role="alert" aria-atomic="true">
+          <div class="post-comments__errors">
           </div>
 
           <div class="post-comments__success hidden"
             role="alert" aria-atomic="true">
-          </div>
+            </div>
 
           <ul class="post-comments__comments-container">
-            <li class="post-comments__comment">
-              <h4>Hora says:</h4>
-              <p>
-                Discovering dynamically updated content
-                without page reload is one of the biggest
-                obstacles for screen readers, especially
-                in the days of Ajax, Node, and single-page
-                applications. How should these be handled?
-                Should the whole page be spoken again? Or
-                should the [assistive technologies] do
-                nothing, risking that the user will miss
-                important updates?
-              </p>
-            </li>
-            <li class="post-comments__comment">
-              <h4>Hora says:</h4>
-              <p>
-                Oh, and that quote is from SitePoint:
-                https://www.sitepoint.com/introduction-wai-aria/
-              </p>
-            </li>
           </ul>
 
         </section>
-      </article>
 
+      </article>
     </main>
 
     <script src="jquery-3.4.1.js"></script>
     <script src="load-comments.js"></script>
+
   </body>
 </html>
 
