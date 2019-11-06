@@ -47,7 +47,7 @@
     WCAG 2.0 recommendations
 
   - Example: web experiences should be accessible across a
-    wide range of devices, like destkop, mobile, TV, or
+    wide range of devices, like destkop, mobile, TV, 
     screenreaders and other assistive technologies
 
   - Example: providing text alternative to non-text

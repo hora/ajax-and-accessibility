@@ -1,36 +1,5 @@
 ## What is accessibility?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 > Accessibility is the practice of making your websites
 > usable by as many people as possible. We traditionally
 > think of this as being about people with disabilities,
