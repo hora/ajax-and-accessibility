@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="en fr">
   <head>
     <meta charset="utf-8">
     <title>Accessible JavaScript: Quotes and
@@ -47,19 +47,27 @@
         </section>
 
         <section class="post-comments">
-          <h3>Comments</h3>
+          <header>
+            <h3>Comments</h3>
+          </header>
 
           <button
             class="post-comments__load-button">
             Load 2 comments
           </button>
 
+          <button
+            class="post-comments__hide-comments hide">
+            Hide all comments
+          </button>
+
           <div class="post-comments__errors"
             role="alert" aria-atomic="true">
           </div>
 
-          <ul class="post-comments__comments-container">
-          </ul>
+          <div class="post-comments__success hidden"
+            role="alert" aria-atomic="true">
+          </div>
 
         </section>
       </article>
