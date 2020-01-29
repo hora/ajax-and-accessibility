@@ -1,5 +1,9 @@
 # W4D3 – A big picture look at AJAX
 
+## Example code
+
+For the code we built during lecture, see [/ajax-get-example](ajax-get-example)
+
 ## So what is AJAX, then?
 
 Essentially, it's a technique that allows web developers
