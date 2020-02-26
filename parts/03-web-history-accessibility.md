@@ -52,7 +52,7 @@
 
   - Example: providing text alternative to non-text
     content, such as captions for videos, which benefits
-    blind people but also users in public spaces (like a
+    D/deaf people but also users in public spaces (like a
     loud street, or a quiet library)
 
 
