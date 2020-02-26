@@ -28,11 +28,10 @@ consider how our products can be interacted with by:
 - Designing web experiences that are as accessible as
   possible for disabled people also benefit everyone else
 
-- For example, designing technology that can be used with
-  only one arm/hand benefits:
+- For example, designing technology that can be used without
+  audio benefits:
 
-    - amputees
-    - people with broken fingers, wrists, arms, etc.
-    - someone holding a phone in one hand and a dog leash
-      in the other
+    - D/deaf people and people that are hard of hearing
+    - People with ear infections
+    - Someone in a quiet space, or one that's too loud
 

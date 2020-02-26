@@ -12,6 +12,7 @@ following core technologies:
 - the Document Object Model (aka the DOM)
 - XMLHttpRequest object or, more recently, (also) the
   Fetch API
+- jQuery
 - JSON (or XML)
 - JavaScript
 

@@ -1,8 +1,9 @@
+const serverURL = 'http://localhost:8080';
 
 const showComments = function(comments) {
-    let $commentsContainer = $('<ul>');
-
-    $commentsContainer.addClass('post-comments__comments-container');
+    // the existing container on the page
+    // where we will add the newly created <li>s
+    let $commentsContainer = $('.post-comments__comments-container');
 
     for (let comment of comments) {
         let $comment = $('<li>');
@@ -19,44 +20,21 @@ const showComments = function(comments) {
 
         $commentsContainer.append($comment);
     }
-
-    $('.post-comments').append($commentsContainer);
-    $('.post-comments__load-button').toggleClass('hide');
-    $('.post-comments__hide-comments').toggleClass('hide');
-    $('.post-comments__success').text('Comments have been loaded');
+    $('.post-comments__load-comments').addClass('hide');
+    $('.post-comments__success').text('Comments have been loaded.');
 };
 
-const handleCommentLoadErrors = function(jqXHR, textStatus, errorThrown) {
+const handleLoadCommentsErrors = function(jqXHR, textStatus, errorThrown) {
     $('.post-comments__errors')
         .addClass('has-errors')
         .append('<span>Error: could not load comments</span>');
 };
 
-$('.post-comments__load-button').on('click', function() {
+$('.post-comments__load-comments').on('click', function() {
     $.ajax({
         method: 'GET',
-        url: 'http://localhost:8080/comments.json'
+        url: `${serverURL}/comments.json`
     })
     .done(showComments)
-    .fail(handleCommentLoadErrors);
+    .fail(handleLoadCommentsErrors);
 });
-
-$('.post-comments__hide-comments').on('click', function() {
-    let $this = $(this);
-    let $commentsContainer = $('.post-comments__comments-container');
-
-    if ($commentsContainer.is(':visible')) {
-        $this.text('Show all comments');
-        $commentsContainer.addClass('hide');
-    } else {
-        $this.text('Hide all comments');
-        $commentsContainer.removeClass('hide');
-    }
-
-});
-
-
-
-
-
-
