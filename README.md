@@ -1,4 +1,7 @@
-# W4D3 – A big picture look at AJAX
+# A big picture look at AJAX
+
+_Note: This repo contains the lecture notes and code examples for a lecture
+I prepared for Lighthouse Labs (W4D3)._
 
 ## What is accessibility?
 
