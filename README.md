@@ -23,7 +23,7 @@ consider how our products can be interacted with by:
 - people with motor disabilities
 - people with various cognitive disabilities
 
-- According to WebAIM, about 20% of people are disabled
+According to WebAIM, about 20% of people are disabled
 
 - It's common to think of disability as a medical
   condition, but disability is often limiting only when
